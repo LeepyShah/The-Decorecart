@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Decore Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- for Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- FAVICON -->
+    <link rel="icon" href="d_img1.jpg">
+
+
+    <link href="main.css" rel="stylesheet">
+
+    <link href="style1.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <!-- navbar starts -->
+    <div>
+        <nav class="navbar  navbar-expand-lg navbar-light bg-light sticky-top">
+
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="home1.html"><label class="logo">The
+                        Decorecart</label></a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="main-menu navbar-nav me-auto mb-2 mb-lg-0">
+                        <li>
+                            <a aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="#" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Decor</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a href="wall.html">Wall decor</a>
+                                    <hr>
+                                    <a href="furniture1.html">Furniture </a>
+                                    <hr>
+                                    <a href="m_garden.html">Garden </a>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li>
+                            <a href="#arrivals">New arrivals</a>
+                        </li>
+                        <li>
+                            <a href="#about">About us</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="#" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    More</a>
+                                <div class="dropdown-menu more" aria-labelledby="dropdownMenuButton">
+                                    <a href="index.html">Festive touches</a>
+                                    <hr>
+                                    <a href="#">Birthday presents </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="#"><i class="bi bi-search"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="bi bi-heart"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="bi bi-cart"></i></a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="#" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    <i class="bi bi-person-circle"></i></a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <button class="btn btn-primary login" data-bs-toggle="modal" data-bs-target="#ex1">
+                                        Login
+                                    </button>
+
+                                    <button class="btn btn-primary signup" data-bs-toggle="modal"
+                                        data-bs-target="#ex">SignUp</button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar ends -->
+
+        <div class="body">
+            <div class="container-fluid" id="home">
+                <!-- Carousel -->
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    </div>
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://images.unsplash.com/photo-1519643381401-22c77e60520e?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                alt="Los Angeles" class="d-block w-100" style="height: 600px; width: auto" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://media.designcafe.com/wp-content/uploads/2022/09/16092055/cheap-room-decor-ideas.jpg"
+                                alt="Chicago" class="d-block w-100" style="height: 600px; width: auto" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://cityfurnish.com/blog/wp-content/uploads/2023/07/wall-bold-colors-with-pops-blue-green-min.jpg"
+                                alt="New York" class="d-block w-100" style="height: 600px; width: auto" />
+                        </div>
+                    </div>
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- start second section  -->
+
+            <div class="big-collection">
+                <div class="collect-flex">
+                    <div class="collect">
+                        <div class="image">
+                            <img src="pic/chair4.jpg" alt>
+                        </div>
+                        <div class="link">
+                            <a href="#">chair</a>
+                        </div>
+                    </div>
+
+                    <div class="collect">
+                        <div class="image">
+                            <img src="pic/chair5.jpg" alt>
+                        </div>
+                        <div class="link">
+                            <a href="#">decoration</a>
+                        </div>
+                    </div>
+
+                    <div class="collect">
+                        <div class="image">
+                            <img src="pic/chair3.jpg" alt>
+                        </div>
+                        <div class="link">
+                            <a href="#">furniture</a>
+                        </div>
+                    </div>
+
+                    <div class="collect">
+                        <div class="image">
+                            <img src="pic/bed.jpg" alt>
+                        </div>
+                        <div class="link">
+                            <a href="#">bed</a>
+                        </div>
+                    </div>
+
+                    <div class="collect">
+                        <div class="image">
+                            <img src="pic/chair2.jpg" alt>
+                        </div>
+                        <div class="link">
+                            <a href="#">armchair</a>
+                        </div>
+                    </div>
+
+                    <div class="collect">
+                        <div class="image">
+                            <img src="pic/couch.jpg" alt>
+                        </div>
+                        <div class="link">
+                            <a href="#">couch</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end second section  -->
+
+            <!-- start section three  -->
+
+            <!-- *id="shop"*/ -->
+            <div class="big-shop" id="arrivals">
+                <div class="shop-title">
+                    <h2>
+                        we are very proud to present you <br> our furniture
+                    </h2>
+                    <p>
+                        Quality is the easiest way to make beautiful
+                        products.
+                    </p>
+                </div>
+                <div class="shop-flex">
+                    <div class="shop-one">
+
+                        <div class="image-one">
+                            <img src="pic/furn1.jpg" alt>
+                            <div class="overlay">
+                                <div class="txt">
+                                    <h3>White Chair</h3>
+                                    <section>
+                                        <span>Furniture</span> / Design
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="image-one">
+                            <img src="pic/furn2.jpg" alt>
+                            <div class="overlay">
+                                <div class="txt">
+                                    <h3>Blue Chair</h3>
+                                    <section>
+                                        <span>Furniture</span> / Design
+                                    </section>
+                                    <div class="link">
+                                        <a href="#">Shop Now <i class="fas fa-long-arrow-alt-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="shop-one">
+
+                        <div class="image-one">
+                            <img src="pic/furn3.jpg" alt>
+                            <div class="overlay">
+                                <div class="txt">
+                                    <h3>Black Chair</h3>
+                                    <section>
+                                        <span>Furniture</span> / Design
+                                    </section>
+                                    <div class="link">
+                                        <a href="#">Shop Now <i class="fas fa-long-arrow-alt-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="image-one">
+                            <img src="pic/furn4.jpg" alt>
+                            <div class="overlay">
+                                <div class="txt">
+                                    <h3>White lamp</h3>
+                                    <section>
+                                        <span>Furniture</span> / Design
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="shop-two">
+                        <img src="pic/furn6.jpg" alt>
+                        <div class="overlay">
+                            <div class="txt">
+                                <h3>Brown Chairs</h3>
+                                <section>
+                                    <span>Furniture</span> / Design
+                                </section>
+                                <div class="link">
+                                    <a href="#">Shop Now <i class="fas fa-long-arrow-alt-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- end section three  -->
+
+            <!-- start section four  -->
+
+            <div class="big-product" id="features">
+                <div class="product-title">
+                    <p>
+                        browse our items
+                    </p>
+                    <h2>
+                        Ideal for your home
+                    </h2>
+                    <hr>
+                </div>
+                <div class="product-flex">
+                    <div class="product-one">
+                        <div class="product-image">
+                            <img src="pic/product1.jpg" alt>
+                            <div class="overlay">
+                                <i class="fas fa-shopping-bag"></i>
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="left">
+                                <h4>
+                                    White vase
+                                </h4>
+                            </div>
+                            <div class="right">
+                                <section>$44.00</section>
+                            </div>
+                        </div>
+                        <article>decoration</article>
+                    </div>
+
+                    <div class="product-one">
+                        <div class="product-image">
+                            <img src="pic/product2.jpg" alt>
+                            <div class="overlay">
+                                <i class="fas fa-shopping-bag"></i>
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="left">
+                                <h4>
+                                    neon light
+                                </h4>
+                            </div>
+                            <div class="right">
+                                <section>$16.00</section>
+                            </div>
+                        </div>
+                        <article>lighting</article>
+                    </div>
+
+                    <div class="product-one">
+                        <div class="product-image">
+                            <img src="pic/product3.jpg" alt>
+                            <div class="overlay">
+                                <i class="fas fa-shopping-bag"></i>
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="left">
+                                <h4>
+                                    gray chair
+                                </h4>
+                            </div>
+                            <div class="right">
+                                <section>$53.00</section>
+                            </div>
+                        </div>
+                        <article>furniture</article>
+                    </div>
+
+                    <div class="product-one">
+                        <div class="product-image">
+                            <img src="pic/product4.jpg" alt>
+                            <div class="overlay">
+                                <i class="fas fa-shopping-bag"></i>
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="left">
+                                <h4>
+                                    cup holder
+                                </h4>
+                            </div>
+                            <div class="right">
+                                <section>$19.00</section>
+                            </div>
+                        </div>
+                        <article>decoration</article>
+                    </div>
+
+                    <div class="product-one">
+                        <div class="product-image">
+                            <img src="pic/product5.jpg" alt>
+                            <div class="overlay">
+                                <i class="fas fa-shopping-bag"></i>
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="left">
+                                <h4>
+                                    White vase
+                                </h4>
+                            </div>
+                            <div class="right">
+                                <section>$26.00</section>
+                            </div>
+                        </div>
+                        <article>decoration</article>
+                    </div>
+
+                    <div class="product-one">
+                        <div class="product-image">
+                            <img src="pic/product6.jpg" alt>
+                            <div class="overlay">
+                                <i class="fas fa-shopping-bag"></i>
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="left">
+                                <h4>
+                                    gray sofa
+                                </h4>
+                            </div>
+                            <div class="right">
+                                <section>$165.00</section>
+                            </div>
+                        </div>
+                        <article>furniture</article>
+                    </div>
+
+                    <div class="product-one">
+                        <div class="product-image">
+                            <img src="pic/product7.jpg" alt>
+                            <div class="overlay">
+                                <i class="fas fa-shopping-bag"></i>
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="left">
+                                <h4>
+                                    baby chair
+                                </h4>
+                            </div>
+                            <div class="right">
+                                <section>$120.00</section>
+                            </div>
+                        </div>
+                        <article>furniture</article>
+                    </div>
+
+                    <div class="product-one">
+                        <div class="product-image">
+                            <img src="pic/product8.jpg" alt>
+                            <div class="overlay">
+                                <i class="fas fa-shopping-bag"></i>
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="left">
+                                <h4>
+                                    read chair
+                                </h4>
+                            </div>
+                            <div class="right">
+                                <section>$115.00</section>
+                            </div>
+                        </div>
+                        <article>furniture</article>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- end section four  -->
+
+            <!-- start section five -->
+
+            <div class="big-furn" id="new-arrival">
+                <div class="furn-title">
+                    <h2>
+                        Discover our furniture from our <br> resources
+                    </h2>
+                    <p>
+                        View our everday amazing products.
+                    </p>
+                </div>
+                <div class="big-part">
+                    <img src="pic/bg_image.png" alt>
+                    <div class="text-inside">
+                        <div class="text-box">
+                            <div>
+                                <img src="pic/product6.jpg" alt>
+                            </div>
+                            <div>
+                                <h5>new couch</h5>
+                                <p>
+                                    take our furniture with perfect quality
+                                    and price.
+                                </p>
+                                <div class="link">
+                                    <a href="#">shop now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end section five -->
+
+            <!-- start section six -->
+
+            <div class="bg-show">
+            </div>
+
+            <!-- end section six -->
+
+            <!-- #about us page -->
+            <div class="about" id="about">
+                <div class="container1">
+                    <div class="article">
+                        <div class="title">
+                            <h1>About Us</h1>
+                        </div>
+                        <div class="content">
+                            <h3>Every business has an origin story worth telling, and usually,
+                                one that justifies why you even do business and have clients.</h3>
+                            <p>
+                                Some centennial enterprises have pages of content that can fit 
+                                in this section, while startups can tell the story of how the company was born,
+                                 its challenges, and its vision for the future.
+                                 Of course, you have a homepage and dedicated pages for your products, but summarizing your offerings on the About Us page 
+                                 is crucial to tie them in with brand values in your messaging.
+                            </p>
+                            <div class="button">
+                                <a href>Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-section">
+                        <img src="garden8.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <br><br>
+
+            <!-- contact us page -->
+            <div class="contactus" id="contact">
+                <div class="title">
+                    <h2>Get in Touch</h2>
+                </div>
+
+                <div class="box">
+
+                    <!-- form -->
+                    <div class="contact form">
+                        <h3>Send a Message</h3>
+                        <form action>
+                            <div class="formBox">
+                                <div class="row50">
+                                    <div class="inputbox">
+                                        <span>First Name</span>
+                                        <input type="text" placeholder="enter fname">
+                                    </div>
+                                    <div class="inputbox">
+                                        <span>Last Name</span>
+                                        <input type="text" placeholder="enter lname">
+                                    </div>
+                                </div>
+
+                                <div class="row50">
+                                    <div class="inputbox">
+                                        <span>Email</span>
+                                        <input type="text" placeholder="enter email">
+                                    </div>
+                                    <div class="inputbox">
+                                        <span>Mobile</span>
+                                        <input type="text" placeholder="enter mobile no.">
+                                    </div>
+                                </div>
+
+                                <div class="row100">
+                                    <div class="inputbox">
+                                        <span>Message</span>
+                                        <textarea placeholder="write your message here..."></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="row100">
+                                    <div class="inputbox">
+                                        <input type="submit" value="send">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- info box -->
+                    <div class="contact info">
+                        <h3>Contact Info</h3>
+                        <div class="infobox">
+                            <div>
+                                <span><ion-icon name="location"></ion-icon></span>
+                                <p>LJ University,Ahmedabad<br>Gujarat,
+                                    INDIA</p>
+                            </div>
+                            <div>
+                                <span><ion-icon name="mail"></ion-icon></span>
+                                <a href="mailto:loremipsum@email.com">lju123@email.com</a>
+                            </div>
+                            <div>
+                                <span><ion-icon name="call"></ion-icon></span>
+                                <a href="tel:+911234567890">+91 123 456
+                                    7890</a>
+                            </div>
+
+                            <!-- social media link -->
+                            <ul class="sci">
+                                <li><a href><ion-icon name="logo-facebook"></ion-icon></a></li>
+                                <li><a href><ion-icon name="logo-twitter"></ion-icon></a></li>
+                                <li><a href><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                                <li><a href><ion-icon name="logo-instagram"></ion-icon></a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <!-- map -->
+                    <div class="contact map">
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.9184086433215!2d72.4840978747692!3d22.990027617542953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9aee6c89a621%3A0x872df2d55fbb0008!2sLJ%20University!5e0!3m2!1sen!2sin!4v1711703143076!5m2!1sen!2sin"
+                            width="600" height="450" style="border:0;" allowfullscreen loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    </div>
+                </div>
+            </div>
+            <!-- start footer image section  -->
+
+            <div class="footer-image" id="contact">
+                <div class="image1">
+                    <img src="pic/footer1.jpg" alt>
+                    <div class="insta">
+                        <img src="pic/insta.png" alt>
+                    </div>
+                </div>
+                <div class="image1">
+                    <img src="pic/footer2.jpg" alt>
+                    <div class="insta">
+                        <img src="pic/insta.png" alt>
+                    </div>
+                </div>
+                <div class="image1">
+                    <img src="pic/footer3.jpg" alt>
+                    <div class="insta">
+                        <img src="pic/insta.png" alt>
+                    </div>
+                </div>
+                <div class="image1">
+                    <img src="pic/footer4.jpg" alt>
+                    <div class="insta">
+                        <img src="pic/insta.png" alt>
+                    </div>
+                </div>
+                <div class="image1">
+                    <img src="pic/footer5.jpg" alt>
+                    <div class="insta">
+                        <img src="pic/insta.png" alt>
+                    </div>
+                </div>
+                <div class="image1">
+                    <img src="pic/footer6.jpg" alt>
+                    <div class="insta">
+                        <img src="pic/insta.png" alt>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end footer image section  -->
+
+            <!-- start footer section  -->
+
+            <div class="bg-footer">
+                <div class="footer-flex">
+                    <div class="footer1">
+                        <h2>furniture</h2>
+                        <section>
+                            Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.
+                            Laboriosam exercitationem eius labore commodi
+                            illum autem asperiores doloribus praesentium non
+                            ut.
+                        </section>
+                    </div>
+                    <div class="footer1">
+                        <h2>helpful links</h2>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our blog</a></li>
+                        <li><a href="#">visit site</a></li>
+                        <li><a href="#">contact us</a></li>
+                        <li><a href="#">apply a job</a></li>
+                    </div>
+                    <div class="footer1">
+                        <h2>shopping</h2>
+                        <li><a href="#">online cards</a></li>
+                        <li><a href="#">return policy</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">inventory</a></li>
+                    </div>
+                    <div class="footer1">
+                        <h2>payment method</h2>
+                        <section>
+                            select one of the most common ways to pay a
+                            money for our products.
+                        </section>
+                        <div class="footer-logo">
+                            <img src="pic/footer-logo.png" alt>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="copy">
+                    <section>
+                        copyright &copy; at 2021 by <span>web
+                            tutorial.</span>
+                    </section>
+                </div>
+            </div>
+
+            <!-- end footer section  -->
+
+            <!-- start scroll to top  -->
+
+            <div class="top">
+                <i class="fas fa-chevron-up"></i>
+            </div>
+
+        </div>
+
+        <!-- login modal -->
+        <div class="modal" id="ex1">
+            <section class="box">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Login</h5>
+                            <button class="close-btn" data-bs-dismiss="modal"><i class="bi bi-x-circle"></i></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <form class="was-validated">
+                                    <fieldset>
+                                        <legend>Login Form</legend>
+                                        <div class="form-group">
+                                            <label for="uname" class="form-label">Username:</label>
+                                            <input type="text" class="form-control" id="uname"
+                                                placeholder="Enter username" name="uname" required />
+                                            <div class="valid-feedback">Valid.</div>
+
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="pwd" class="form-label">Password:</label>
+                                            <input type="password" class="form-control" id="pwd"
+                                                placeholder="Enter password" name="pswd" required />
+                                            <div class="valid-feedback">Valid.</div>
+
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="myCheck" name="remember"
+                                                required />
+                                            <label class="form-check-label" for="myCheck">I agree
+                                                to the terms and
+                                                conditions</label>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">
+                                                Check this checkbox to
+                                                continue.
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">
+                                            Submit
+                                        </button>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- SignUp modal -->
+        <div class="modal" id="ex">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">SignUp</h5>
+                        <button class="close-btn" data-bs-dismiss="modal"><i class="bi bi-x-circle"></i></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <form class="was-validated">
+                                <fieldset>
+                                    <legend>SignUp Form</legend>
+                                    <div class="form-group">
+                                        <label for="uname" class="form-label">First
+                                            Name:</label>
+                                        <input type="text" class="form-control" id="uname"
+                                            placeholder="Enter first Name" name="uname" required>
+                                        <div class="valid-feedback">Valid.</div>
+
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="uname" class="form-label">Last
+                                            Name:</label>
+                                        <input type="text" class="form-control" id="uname" placeholder="Enter Last Name"
+                                            name="uname" required>
+                                        <div class="valid-feedback">Valid.</div>
+
+                                    </div>
+
+                                    <div class="mt-3">
+                                        <label for="email">Email:</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Enter email"
+                                            name="email" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="pwd" class="form-label">Password:</label>
+                                        <input type="password" class="form-control" id="pwd"
+                                            placeholder="Enter password" name="pswd" required>
+                                        <div class="valid-feedback">Valid.</div>
+
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="pwd" class="form-label">Confirm
+                                            Password:</label>
+                                        <input type="password" class="form-control" id="pwd"
+                                            placeholder="Enter password" name="pswd" required>
+                                        <div class="valid-feedback">Valid.</div>
+
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="myCheck" name="remember"
+                                            required>
+                                        <label class="form-check-label" for="myCheck">I agree to the
+                                            terms and conditions</label>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Check
+                                            this checkbox to continue.</div>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>
